@@ -1,9 +1,9 @@
-from colorama import Fore, Style
+import chalk from 'chalk';
 
-banner = f"""
-{Fore.YELLOW}╔════════════════════════════════════════╗
-{Fore.YELLOW}║      🚀 Meshchain Ai 自动工具 🚀       ║
-{Fore.YELLOW}║  👤    脚本编写：@qklxsqf              ║
-{Fore.YELLOW}║  📢  电报频道：https://t.me/ksqxszq    ║
-{Fore.YELLOW}╚════════════════════════════════════════╝{Style.RESET_ALL}
-"""
+export const banner = `
+${chalk.yellow('╔════════════════════════════════════════╗')}
+${chalk.yellow('║      🚀 Meshchain Ai 自动工具 🚀       ║')}
+${chalk.yellow('║  👤    脚本编写：@qklxsqf              ║')}
+${chalk.yellow('║  📢  电报频道：https://t.me/ksqxszq    ║')}
+${chalk.yellow('╚════════════════════════════════════════╝')}
+`;
