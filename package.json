@@ -1,0 +1,22 @@
+{
+  "name": "MeshchainAi-bot",
+  "version": "1.0.0",
+  "type": "module",
+  "description": "Meshchain 自动注册和扩展 ID 生成工具",
+  "main": "main.js",
+  "scripts": {
+    "start": "node main.js",
+    "register": "node register.js"
+  },
+  "keywords": [
+    "meshchain",
+    "automation",
+    "registration"
+  ],
+  "license": "ISC",
+  "dependencies": {
+    "chalk": "^5.3.0",
+    "node-fetch": "^3.3.2"
+  }
+}
+
