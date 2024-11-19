@@ -22,7 +22,7 @@ async function register(name, email, password) {
         full_name: name, // 用户全名
         email: email, // 用户邮箱
         password: password, // 用户密码
-        referral_code: "XW37QRUE51P7", // 替换为你的推荐码
+        referral_code: "XW37QRUE51P7", 
     };
     const response = await coday(
         'https://api.meshchain.ai/meshmain/auth/email-signup', // 注册 API 地址
