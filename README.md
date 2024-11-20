@@ -88,3 +88,4 @@ npm run start
 ```
 npm run autoreg
 ```
+![image](https://github.com/user-attachments/assets/f6c43c52-8b00-4330-8c1c-a6260c9d335d)
